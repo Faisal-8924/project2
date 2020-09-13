@@ -1,0 +1,113 @@
+
+
+/* google font */
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Bebas+Neue&family=Montserrat:wght@300;400;500;600&display=swap');
+/* google font */
+
+*{margin: 0;
+  padding: 0;
+}
+
+/*
+font-family: 'Alfa Slab One', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Montserrat', sans-serif;
+*/
+a{
+	text-decoration: none;
+}
+.container{
+	width: 1140px;
+	margin: auto ;
+}
+
+header{
+	background: url(../img/banner.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+	width: 100%;
+
+
+}
+
+.header-contain{
+	
+	display: flex;
+    justify-content: space-between;
+     padding: 32px 0;
+ 
+}
+.contact-on{
+	text-align: right;
+
+}
+.contact-on img{
+	vertical-align: middle;
+}
+
+.contact-on samp{
+font-family: 'Montserrat', sans-serif;
+font-weight: 600;
+color: #3d2514;
+margin-left: 10px;
+vertical-align: middle;
+}
+
+
+}
+.manu{
+	text-align: right;
+margin-top: 20px;
+
+}
+.manu ul li{
+	list-style: none;
+	display: inline-block;
+	padding-left: 26px;
+}
+.manu ul li a{
+font-family: 'Bebas Neue', cursive;
+color: #3d2514;
+font-size: 20px;
+letter-spacing: 3px
+text-transform: uppercase;
+
+}
+.banner{
+
+	width: 100%;
+	height:70vh;
+	text-align: left;
+	display: table-cell;
+	vertical-align: middle;
+
+}
+.banner p{
+	font-family: 'Bebas Neue', cursive;
+	font-size: 26px;
+    border: 2px dashed black;
+      display: inline-block;
+       padding: 5px 10px;
+       text-transform: uppercase;
+    color: #3d2514;
+}
+.banner h1{
+	font-size: 100px;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 900;
+      letter-spacing: 5px;
+      text-shadow: 3px 4px white;
+      color: #3d2514;
+}
+.banner h2{
+	font-size: 56px;
+    letter-spacing: 4px;
+    text-shadow: 2px 3px white;
+    text-transform: uppercase;
+    font-family: 'Alfa Slab One', cursive;
+    color: #3d2514;
+
+}
